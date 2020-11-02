@@ -27,3 +27,6 @@ target/
 log/
 nll-facts/
 /design/book/
+
+
+set_env_vars.sh
