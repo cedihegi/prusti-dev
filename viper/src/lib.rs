@@ -29,6 +29,7 @@ mod verification_result;
 mod verifier;
 mod viper;
 mod java_exception;
+mod counterexample;
 
 pub use ast_factory::*;
 pub use ast_utils::*;
@@ -38,3 +39,4 @@ pub use verification_result::*;
 pub use verifier::*;
 pub use viper::*;
 pub use java_exception::*;
+pub use counterexample::*;
