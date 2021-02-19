@@ -97,6 +97,7 @@ impl<'p, 'v: 'p, 'tcx: 'v> SpecFunctionEncoder<'p, 'v, 'tcx> {
                 true,
                 None,
                 ErrorCtxt::GenericExpression,
+                self.proc_def_id
             )?);
         }
 
@@ -145,6 +146,7 @@ impl<'p, 'v: 'p, 'tcx: 'v> SpecFunctionEncoder<'p, 'v, 'tcx> {
                 true,
                 None,
                 ErrorCtxt::GenericExpression,
+                self.proc_def_id
             )?);
         }
 
